@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Josefin+Sans|Lobster|Londrina+Outline|Passion+One|Sigmar+One');
+
+  body {
+    background-image: url("http://feelgrafix.com/data_images/out/5/785016-dark-wallpaper.jpg");
+    background-size: cover;
+    border: 5px dotted #000000;
+  }
+
+/*Nav Bar General*/
+  #navbar {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0,0,0,0.5);
+  }
+
+  #home, #other, #genre, #examples {
+    text-decoration: none;
+    margin: 30px;
+    font-family: Josefin Sans;
+    font-style: bold;
+    color: white;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  a:hover {
+     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  }
+/*General Body Manipulation*/
+  #B1, #V1, #B2{
+    font-family:Passion One;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:rgba(255, 255, 255, 0.5);
+    text-shadow: 0px 1px #696969;
+  }
+  #OL {
+    text-decoration:none;
+    color: white;
+    padding: 10px;
+  }
+
+/*Overview*/
+  #O1 {
+    background: radial-gradient(#FFFFFF, rgba(255, 255, 255, 0));
+    font-size: 30px;
+  }
+
+/*Team Pics*/
+  #CT1 {
+    float: left;
+    display: inline;
+    margin-top: 80px;
+  }
+  #T1 {
+    float: right;
+    display: inline;
+    margin-top: 80px;
+  }

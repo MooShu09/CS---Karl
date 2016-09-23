@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Indie+Flower|Josefin+Sans|Lobster|Londrina+Outline|Passion+One|Sigmar+One');
+
+  body {
+    background-image: url("http://feelgrafix.com/data_images/out/5/785016-dark-wallpaper.jpg");
+    background-size: cover;
+    border: 5px dotted #000000;
+  }
+
+/*Nav Bar General*/
+#navbar {
+  text-align: center;
+  padding: 30px;
+  background:radial-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+
+}
+#home, #other, #gm, #teams {
+  text-decoration: none;
+  margin: 30px;
+  font-family: Josefin Sans;
+  font-style: bold;
+  color: white;
+  padding-left:40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a:hover {
+     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+}
+/*General Body Manipulation*/
+
+  #CT {
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0), rgba(4, 12, 110,1));
+    font-family: Londrina;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+  }
+
+  #T {
+    padding: 20px;
+    background: linear-gradient(rgba(0,0,0,0), khaki);
+    font-family: Londrina;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  #CTL, #TL{
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    margin: 20px;
+  }
